@@ -33,7 +33,6 @@ smart-finance/
 ## 📸 Screenshots
 
 ![Smart Finance Landing Page](./public/smart-finance.png)  
-*(Replace with an actual screenshot of your landing page.)*
 
 ## 📦 Installation
 
