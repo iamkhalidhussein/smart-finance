@@ -11,10 +11,11 @@ Smart Finance is a modern and responsive landing page built with React, designed
 - **React.js**: A JavaScript library for building user interfaces.
 - **TailwindCSS**: A utility-first CSS framework for styling.
 - **JavaScript**: Used for dynamic functionality.
-- **Optional Libraries**: Additional libraries can be included based on specific requirements.
 
 ## 📂 Folder Structure
 The project follows a clean and organized folder structure:
+
+```
 smart-finance/  
 │── public/
 │── src/
@@ -28,7 +29,7 @@ smart-finance/
 │── package.json
 │── README.md
 │── .gitignore
-
+```
 
 ## 📸 Screenshots
 
