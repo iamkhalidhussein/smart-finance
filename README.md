@@ -19,16 +19,28 @@ The project follows a clean and organized folder structure:
 smart-finance/  
 │── public/
 │── src/
-│   ├── assets/ # Static assets (images, icons, etc.)
-│   ├── components/ui/ # Reusable UI components
-│   ├── lib/ # Utility functions and helper files
-│   ├── routes/ # Application routes and navigation
+│   ├── assets/         # Static assets (images, icons, etc.)
+│   ├── components/ui/  # Reusable UI components
+│   ├── lib/            # Utility functions and helper files
+│   ├── routes/         # Application routes and navigation
 │   ├── App.js
 │   ├── main.jsx
 │   └── index.css
 │── package.json
 │── README.md
 │── .gitignore
+```
+```
+src/
+├── components/
+│   ├── BearAvatar.tsx    # Animated bear image component
+│   ├── Input.tsx         # Reusable form input component
+│   └── LoginForm.tsx     # Main login form component
+├── hooks/
+│   ├── useBearAnimation.ts   # Bear animation state management
+│   └── useBearImages.ts      # Image loading and sorting logic
+└── assets/
+    └── img/              # Bear animation image sequences
 ```
 
 ## 📸 Screenshots
@@ -39,18 +51,15 @@ smart-finance/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/smart-finance-landing.git
-   cd smart-finance-landing
+   git clone https://github.com/iamkhalidhussein/smart-finance.git
 
 2. **Install Dependencies**:
    ```bash
-   git clone https://github.com/your-username/smart-finance-landing.git
-   cd smart-finance-landing
+   pnpm install
 
 2. **Start The Development Server**:
    ```bash
-   git clone https://github.com/your-username/smart-finance-landing.git
-   cd smart-finance-landing
+   pnpm dev
 
 ## 💡Usage
 
@@ -64,8 +73,8 @@ Manage Routes: Handle navigation in src/routes/.
 
 1. **Fork The Repo**:
    ```bash
-   git clone https://github.com/your-username/smart-finance-landing.git
-   cd smart-finance-landing
+   git clone https://github.com/iamkhalidhussein/smart-finance.git
+   cd smart-finance
 
 2. **Create a New Branch**:
     git checkout -b feature-branch
