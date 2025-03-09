@@ -15,7 +15,7 @@ Smart Finance is a modern and responsive landing page built with React, designed
 ## 📂 Folder Structure
 The project follows a clean and organized folder structure:
 
-```
+```bash
 smart-finance/  
 │── public/
 │── src/
@@ -29,18 +29,6 @@ smart-finance/
 │── package.json
 │── README.md
 │── .gitignore
-```
-```
-src/
-├── components/
-│   ├── BearAvatar.tsx    # Animated bear image component
-│   ├── Input.tsx         # Reusable form input component
-│   └── LoginForm.tsx     # Main login form component
-├── hooks/
-│   ├── useBearAnimation.ts   # Bear animation state management
-│   └── useBearImages.ts      # Image loading and sorting logic
-└── assets/
-    └── img/              # Bear animation image sequences
 ```
 
 ## 📸 Screenshots
